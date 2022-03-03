@@ -1,0 +1,32 @@
+body {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+header {
+    text-align:right;
+    line-height: 1.5;
+    text-decoration-line: none;
+}
+
+.editing {
+    text-decoration: none;
+    color: black;
+}
+    
+article {
+    line-height: 1.5;
+}
+
+.author {
+    line-height: 3;
+}
+
+.aligntext {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: circle black;
+}
