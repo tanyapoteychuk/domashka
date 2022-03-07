@@ -2,12 +2,37 @@ body {
     width: 50%;
     padding-left: 25%;
     padding-right: 25%;
+    font-family:Arial Rounded MT Bold, Helvetica, sans-serif;
 }
 
-.zagolovok {
+h1 {
     text-align: center;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+b {
+    font-weight:800;
 }
 
 ul {
     list-style-type: lower-alpha;
 }
+
+ul>li {
+    padding-left: 13px;
+}
+
+
+/*ol {
+    list-style-type: none; 
+    counter-reset:  item; 
+   }
+li:before {
+    content: counter(item) ') ';
+    counter-increment: item; 
+ }*/

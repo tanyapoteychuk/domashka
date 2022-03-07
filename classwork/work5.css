@@ -1,0 +1,19 @@
+body {
+   font-family: Arial Rounded MT Bold, Helvetica, sans-serif;
+   width: 50%;
+   padding-left: 25%;
+   }
+ul>li {
+    list-style-type: lower-alpha;
+    padding-left: 8px;
+    margin-left: -22px;
+}
+
+ul,ol {
+    
+    line-height: 1.4;
+}
+
+p {
+    line-height: 0.4;
+}
