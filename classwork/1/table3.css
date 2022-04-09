@@ -1,0 +1,19 @@
+table,
+th,
+td {
+    border: 1px; 
+    text-align: center;
+}
+
+.first {
+    height: 20px;
+}
+
+table {
+    border-style: outset;
+}
+
+th,
+td {
+    border-style: inset;
+ }

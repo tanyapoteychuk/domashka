@@ -1,0 +1,77 @@
+table,th,td {
+    border:1px solid grey;
+    border-collapse: collapse;
+    text-transform: capitalize;
+}
+th {
+  font-style: italic;
+}
+
+.name {
+    font-style: normal;
+    font-size: 23px;
+}
+caption {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    word-spacing: 5px;
+    font-style: normal;
+   }
+
+   table {
+       width: 60%;
+       text-align: center;
+   }
+
+   .new {
+       background-color: white;
+   }
+
+   th {
+       font-weight: 800;
+   }
+
+
+  /*Работа со значками*/ 
+  li {
+      display: inline-block;
+  }
+
+  ul{
+      margin: 0px;
+  }
+  
+  a {
+        display:block;
+        padding: 30px 30px;
+        margin: 5px;
+        border:1px solid black;
+        background-position: center;
+        border-radius: 100%;
+
+
+   }
+  .instagram {
+       background-image: url("./instagram.jpg");
+       background-size:contain;
+       width: 25px;
+       height: 25px;
+       background-repeat: no-repeat;
+    }
+   
+   .twitter {
+       background-image: url("./twitter.jpg");
+       background-size: cover;
+       width: 25px;
+       height: 25px;
+       background-repeat: no-repeat;
+    }
+
+   .contact {
+       background-image: url("./contact.png");
+       background-size: contain;
+       width: 25px;
+       height: 25px;
+       background-repeat: no-repeat;
+   }

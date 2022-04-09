@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:rgb(224, 215, 215) ;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+    width: 250px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    background-color: white;
+    margin: 15px;
+}
+.news {
+    display: flex;
+    justify-content: flex-end;
+}
+.new {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.foto {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    height: 65%;
+    background-color: white;
+    box-shadow: -5px 15px 4px -11px rgba(6, 11, 15, 0.2);
+}
+.foto > img {
+    width: 100%;
+    height: 50%;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 10px 0;
+}
+.name p {
+    font-size: 20px;
+}
+.price {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.one {
+    color: rgba(21, 126, 21, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 10px 15px 0;
+}
+.two {
+    font-size: 20px;
+}
+.raiting {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+.raiting span {
+    color: orange;
+    padding-left: 40px;
+}
+.raiting img {
+    width: 15px;
+    height: 15px;
+}
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(21, 126, 21, 0.856);
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+}
+.add img {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+.add p {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+     
+}

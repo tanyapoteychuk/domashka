@@ -1,0 +1,64 @@
+pre {
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    width: 100%;
+}
+mark {
+    background-color: lightgray;
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+}
+ul li {
+    list-style: none;
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header {
+   grid-area: header;
+    border: 1px solid red;
+}
+aside{
+    grid-area: aside;
+}
+main {
+    grid-area: main;
+}
+article {
+    grid-area: article;
+}
+section{
+    grid-area: section;
+}
+footer{
+    grid-area: footer;
+    justify-items: center;
+}
+.container {
+       border: 1px solid green;
+  
+}
+main, article, section{
+    background-color: white;
+}
+
+
+aside, main, article, section, footer{
+    border:1px solid black ;
+}
+.stryctyra {
+    display: grid;
+    grid-template-columns: 1fr 844px 1fr;
+    grid-template-rows: auto auto auto 200px;
+    grid-template-areas: 
+    "header header header"
+    "aside main article"
+    ". section ."
+    ". footer .";
+    gap: 20px;
+    background-color: lightgray;
+}

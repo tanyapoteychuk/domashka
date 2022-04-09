@@ -1,0 +1,34 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.one img {
+    float: left;
+    width: 70%;
+}
+.two img {
+    width: 100%;
+}
+.row1 {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.row1 >div {
+    padding: 10px;
+    column-count: 2;
+    border: 2px solid black;
+    height: 150vh;
+    column-rule: 1px solid grey;
+    column-fill: auto;
+  
+}
+.row1>div.one {
+    border-right: none;
+   
+}
+.row2 {
+    border: 2px solid black;
+    border-top: none;  
+}

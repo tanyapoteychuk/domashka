@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    counter-reset: chet; 
+}
+label::before {
+    counter-increment: chet;
+    content: counter(chet) ". ";
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
+section{
+    display: flex;
+    align-items: center;
+    margin-bottom:20px ;
+} 
+label {
+    width: 25%;
+}
+input, textarea {
+    flex-grow: 1;
+    padding: 2px;
+}
+form :last-child label{
+    width: 20px;
+} 
+p{
+    padding-right: 10px;
+}

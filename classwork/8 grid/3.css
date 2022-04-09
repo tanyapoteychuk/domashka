@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows:50px 150px 50px 50px 50px;
+    grid-template-areas: 
+    "header nav nav nav"
+    "hero hero hero hero"
+    "main main . image"
+    "main main . extra"
+    "banner banner banner banner";
+}
+.container>*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+header, nav, .hero, main {
+    color: white;
+}
+header{
+    background-color: black;
+    grid-area: header;
+}
+nav{
+    background-color: rgb(245, 52, 52);
+   grid-area: nav;
+}
+.hero {
+    background-color: rgb(140, 140, 236);
+    grid-area: hero;
+}   
+main {
+    background-color: darkblue;
+    grid-area: main;
+}
+.banner {
+    background-color: rgb(250, 214, 9);
+    grid-area: banner;
+}
+.extra {
+    background-color: rgb(81, 167, 81);
+    grid-area: extra;
+}
+.image {
+    background-color: lightblue;
+    grid-area: image;
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+}
+
+li {
+    list-style: none;
+   padding: 10px 20px;
+   width: max-content;
+    background-color: lightgrey;
+   border: 1px solid grey;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+.one {
+  border: 1px solid black;
+  width: 40%;
+
+  position: relative;
+  display: none;
+}
+li:hover {
+    background-color: aquamarine;
+}
+
+ li:hover {
+   display: block;
+    background-color: rgb(143, 104, 158);
+} 

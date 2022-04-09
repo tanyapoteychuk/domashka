@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM2</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+<form action="" method="post">
+    <section>
+        <label for="name">Ваше имя:</label>
+        <input type="text" name="" id="name"/>
+    </section>
+    <section>
+        <label for="password">Пароль:</label>
+        <input type="password" name="" id="password">
+    </section>
+    <section>
+        <label for="sex">Пол:</label>
+        <p>мужской<input type="radio" name="sex" id="sex"></p>
+        <p>женский<input checked type="radio" name="sex" id="sex"></p>
+    </section>
+    <section>
+        <label for="hobby">Ваши увлечения:</label>
+        <p>Музыка <input type="checkbox" name="" id="hobby"></p>
+        <p>Видео <input type="checkbox" name="" id="hobby"></p>
+        <p>Рисование <input type="checkbox" name="" id="hobby"></p>
+    </section>
+    <section>
+        <label for="city">Ваш город</label>
+        <select name="city" id="city">
+            <option value="Niznii Tagil">Нижний Тагил</option>
+            <option value="Moskva">Москва</option>
+            <option value="Niznii Novgorod">Нижний Новгород</option>
+        </select>
+    </section>
+    <section>
+        <label for="aboutyou">Кратко о себе</label>
+        <textarea name="" id="aboutyou" cols="30" rows="4" placeholder="Краткая информация о ваших увлечениях"></textarea>
+    </section>
+    <section>
+        <label for="avatar">Аватар</label>
+        <input type="file" name="" id="avatar">
+    </section>
+    <section>
+        <label for="reset"></label>
+        <input type="button" id="reset" value="Сброс">   
+        <label for="yes"></label>
+        <input type="button" id="yes" value="Подтверждаю">   
+        <label for="klik"></label>
+        <input type="button" id="klik" value="Кликни по мне просто так">   
+    </section>
+   
+</form>
+
+</body>
+</html>

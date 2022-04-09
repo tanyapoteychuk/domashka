@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <link rel="stylesheet" href="forma.css">
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Форма заявки на работу в форму</h1>
+        <p class="required">Пожалуйста,заполните форму. Обязательные поля помечены </p>
+        <fieldset >
+            <legend>Контактная информация</legend>
+            <section>
+                <label for="name"  class="required">Имя</label>
+                <input type="text" name="" id="name">
+            </section>
+            <section>
+                <label for="number">Телефон</label>
+                <input type="text" name="" id="number">
+            </section>
+            <section>    
+                <label for="E-mail" class="required">E-mail</label>
+                <input type="text" name="" id="E-mail">
+            </section>    
+        </fieldset>
+        <fieldset>
+            <legend>Персональная информация</legend>
+            <section>
+                <label for="age" class="required" >Возраст</label><input type="text" name="" id="age">
+            </section>
+            <section>   
+                <label for="sex" >Пол</label>
+                <select name="sex" id="sex">
+                    <option value="men">Мужчина</option>
+                    <option value="woman">Женщина</option>
+                </select>
+            </section>     
+            <section>   
+                <label for="info">Перечислите личные качества</label> <textarea name="" id="info" cols="30" rows="10"></textarea>
+            </section> 
+        </fieldset>
+        <fieldset>
+            <legend>Выберите ваших любимых животных</legend>
+            <ul>
+                <li>  
+                    <label><input type="checkbox"/>Зебра</label> 
+                </li>
+                <li> 
+                    <label><input type="checkbox"/>Кошк</label> 
+                </li>
+                <li>
+                    <label><input type="checkbox"/> Анаконда</label>
+                </li>
+                <li>
+                    <label><input type="checkbox"/>Человек</label>
+                </li>
+                <li> 
+                    <label><input type="checkbox"/> Слон</label>
+                </li>
+                <li> 
+                    <label ><input type="checkbox"/>Антилопа</label> 
+                </li>
+                <li>
+                    <label ><input type="checkbox"/> Голубь</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" > Краб</label>
+                </li>
+            </ul>
+       </fieldset>
+       <input type="submit" value="Отправить информацию">
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>

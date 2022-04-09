@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+    }
+
+header {
+    display: flex;
+    margin: 10px;
+    padding: 0px;
+    background-color: rgb(23, 199, 190);
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    
+   }
+
+aside nav  {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: rgba(43, 207, 43, 0.911); 
+    color: rgb(16, 16, 158);
+    font-size: 18px;
+    width:150px;
+    height: 500px;
+    margin: 10px; 
+}
+
+article {
+    display: flex;
+    background-color: rgb(236, 100, 9);
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;        
+}
+
+article footer{
+    display: flex;
+    justify-content: space-around;
+}
+article footer img {
+border: 10px solid rgb(241, 38, 225);
+margin: 15px;
+} 
+
+footer h4 {
+    display: flex;
+    background-color: rgb(23, 199, 190);
+    justify-content: center;
+    align-items: end;
+    color: white;
+    font-size: 30px;
+    height: 70px;
+    border-bottom: 2px solid black;
+    margin: 10px 10px 0px 10px;
+}
+
+footer nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    height: 190px;
+    justify-content: space-evenly;
+    background-color: rgb(23, 199, 190);
+    margin: 0px 10px 10px 10px;
+}
+
+footer nav ul {
+    background-color: rgb(23, 199, 190);
+    width:130px;
+    height: 130px;  
+    padding-top: 20px;
+    list-style-position: inside;
+    font-size: 20px;
+    color: rgb(16, 16, 158);
+}
